@@ -30,3 +30,5 @@ app.get('/questionsIhave',(req,res)=>{
 app.get('/seeMyNumber/:number',(req,res)=>{
     res.send(`This number I typed in is ${req.params.number}`)
 })
+
+
